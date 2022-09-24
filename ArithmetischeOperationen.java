@@ -18,5 +18,15 @@ public class ArithmetischeOperationen {
         double div = (double) a / (double) b;
         System.out.println("a / b: " + div);
         System.out.println("a % b: " + (a%b));
+
+
+        System.out.println("a++: " + (a++));    // Post-Inkrement
+        System.out.println("a++: " + a);
+
+        System.out.println("++b: " + (++b));    // Pre-Inkrement
+        System.out.println("b: " + b);
+
+        // Commit Panel: ctrl + k
+
     }
 }
